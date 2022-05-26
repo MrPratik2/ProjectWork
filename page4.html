@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {background-image: url(https://wallpapertag.com/wallpaper/full/3/4/4/138389-plain-black-wallpaper-1920x1200-pictures.jpg);}
+
+    .circle2 { background-color:transparent; height: 8%;width: 10% ; position:absolute ;top: 4% ;left:0%;border:2px solid white;color:white; font-size: 250%;font-family: fantasy;}
+
+    .recyus {text-decoration: none;color: white;position: absolute;top:10% ;left: 10%;}
+
+    .recyus:hover {background-color: white;color: black;}
+
+    .searchbar {position: absolute;left:83% ;top:5%}
+
+    .input {border: 3px solid rgb(247, 173, 15);height: 25px;border-radius: 21px 0 21px 0;}
+
+    .thread  {height:4% ;width:2px ;background-color: white;position: absolute;top:0% ;left:5%}
+
+    .bar1 { background-color: rgb(54, 53, 53); height: 5%; width:35% ;position: absolute; top:18%;left: 3% ;box-shadow: 0px 3px 3px 2px rgb(48, 47, 47)}
+
+    .bar2 { background-color: rgb(54, 53, 53); height: 5%; width:35% ;position: absolute; top:18%;left: 62%  ;box-shadow: 3px 3px 0px 2px rgb(48, 47, 47); }
+
+    .bar3 { background-color: rgb(54, 53, 53); height: 5%; width:5% ;position: absolute; top:18%;left: 39%  ;box-shadow: 2px 2px 0px 2px rgb(48, 47, 47); }
+
+    .bar4 { background-color: rgb(54, 53, 53); height: 5%; width:5% ;position: absolute; top:18%;left: 56%  ;box-shadow: 2px 2px 0px 2px rgb(48, 47, 47); }
+
+    .bar5 { background-color: rgb(54, 53, 53); height: 5%; width:8% ;position: absolute; top:18%;left: 46%  ;box-shadow: 2px 2px 0px 2px rgb(48, 47, 47); }
+
+    .bar3:hover {background-color: rgb(102, 100, 100) ; color:black;}
+
+    .bar4:hover {background-color: rgb(102, 100, 100) ; color:black;}
+
+    .bar5:hover {background-color: rgb(102, 100, 100) ; color:black;}
+
+    .camera {position: absolute; top:30% ;left:3.3% ;height:40% ;width:17% ;}
+
+    .cameraapp {position: absolute; top:36% ;left:14% ;height:40% ;width:17% ;}
+
+    .lady {position: absolute; top:42% ;left:24% ;height:38% ;width:13.5% ;}
+
+    .watch {position: absolute; top:28% ;left:40.5% ;height:53% ;width:20% ; }
+
+    .image4 {position: absolute; top:30% ;left:80% ;height:40% ;width:17% ;}
+
+    .image5 {position: absolute; top:36% ;left:70% ;height:40% ;width:15% ;}
+
+    .image6 {position: absolute; top:42% ;left:63% ;height:38% ;width:13.5% ;}
+
+    .home { position: absolute; top:80% ;left:8% ;height:25% ;width:20% ;}
+
+    .home1 { position: absolute; top:83% ;left:28% ;height:25% ;width:20% ;}
+
+    .jewellery { position: absolute; top:83% ;left:52% ;height:25% ;width:20% ;}
+
+    .jewellery1 { position: absolute; top:80% ;left:72% ;height:25% ;width:20% ;}
+
+    .makeup { position: absolute; top:110% ;left:8% ;height:25% ;width:20% ;}
+
+    .makeup1 { position: absolute; top:113% ;left:28% ;height:25% ;width:20% ;}
+
+    .deo { position: absolute; top:113% ;left:52% ;height:25% ;width:20% ;}
+
+    .deo1 { position: absolute; top:110% ;left:72% ;height:25% ;width:20% ;}
+
+    .quote001 { height:10% ;width: 90%;background-color: transparent;position: absolute;top: 140%;}
+
+    .bar001 { background-color: rgb(54, 53, 53); height: 5%; width:95% ;position: absolute; top:157%;left: 3% ;box-shadow: 0px 3px 3px 2px rgb(48, 47, 47)}
+
+    .bl1  {height:37% ;width: 15%;background-color: white;position: absolute;top:180% ;left:9% }
+
+
+
+    .q1  { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:174.5% ;left:9% ; }
+
+    .q2  { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:217.5% ;left:9% ; }
+
+    .bl12  {height:37% ;width: 15%;background-color: white;position: absolute;top:180% ;left:30% }
+
+    .q12  { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:174.5% ;left:30% ; }
+
+    .q21 { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:217.5% ;left:30% ; }
+
+    .bl123  {height:37% ;width: 15%;background-color: white;position: absolute;top:180% ;left:51% }
+
+    .q123 { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:174.5% ;left:51% ; }
+
+    .q213 { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:217.5% ;left:51% ; }
+
+    .bl1234  {height:37% ;width: 15%;background-color: white;position: absolute;top:180% ;left:71% }
+
+    .q1234 { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:174.5% ;left:71% ; }
+
+    .q2134 { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:217.5% ;left:71% ; }
+
+    .bar002 { background-color: rgb(54, 53, 53); height: 5%; width:95% ;position: absolute; top:235%;left: 3% ;box-shadow: 0px 3px 3px 2px rgb(48, 47, 47)}
+
+    .a  {height:37% ;width: 15%;background-color: white;position: absolute;top:260% ;left:9% }
+
+    .b  { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:254.5% ;left:9% ; }
+
+    .c { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:297.7% ;left:9% ; }
+
+    .d {height:37% ;width: 15%;background-color: white;position: absolute;top:260% ;left:30% }
+
+    .e  { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:254.5% ;left:30% ; }
+
+    .f{ height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:297.7% ;left:30% ; }
+
+    .g  {height:37% ;width: 15%;background-color: white;position: absolute;top:260% ;left:51% }
+
+    .h{ height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:254.5% ;left:51% ; }
+
+    .i { height:5% ;width: 15%;background-color: goldenrod;position: absolute;top:297.7% ;left:51% ; }
+
+    .j  {height:15% ;width: 5%;background-color: transparent;position: absolute;top:270% ;left:75% }
+
+    .azx {height:25% ;width: 19%;background-color: goldenrod;position: absolute;top:266% ;left:79% }
+
+    .rocket {height:10% ;width: 5%; position: absolute; top:330%;left:25% ;background-color: goldenrod;}
+
+    .turn {height:10% ;width: 5%; position: absolute; top:330%;left:47% ;background-color: rgb(8, 6, 0);}
+
+    .aaaa {height:10% ;width: 5%; position: absolute; top:330%;left:69% ;background-color: transparent;}
+
+    .la  { height:5% ;width: 40%; background-color: white; position: absolute; top:375%;left:29% }
+
+    .aaaaaa  { height:30% ;width: 50%; background-color: transparent; position: absolute; top:373.4%;left:65% }
+
+    
+    .get  { height:30% ;width: 50%; background-color: transparent; position: absolute; top:368%;left:43%;color: white; }
+
+   
+    nav { background-color:transparent;color:white; height:50px ; position: relative;}
+
+nav ul { height:46px ; display:flex;justify-content: left;position:absolute; left: 37%;top:0% }
+
+nav ul li {list-style-type:none ;float:left ;width: 100px; }
+
+nav ul li a { text-decoration:none; line-height:50px ;display:block ;text-align:center; color:white ;font-style: bold; }
+
+nav ul li a:hover { background:whitesmoke;color:black ;}
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="circle2">
+         <div class="text" style="text-decoration: none;color: white"><a href="page1.html" class="recyus"> RECYUS</a></div>
+
+     </div>
+
+     <div class="searchbar">
+      <input type="text" name="box" placeholder=" &nbsp &nbsp Seacrh for the latest !" class="input">
+      <button type="search" style="background-color: rgb(247, 173, 15) ;"><img src="https://static.vecteezy.com/system/resources/previews/000/422/881/original/shopping-bag-icon-vector-illustration.jpg" height="15px" style="position: absolute;top:26% ;left: 178px;">&nbsp &nbspCART</button>
+     </div>
+
+     <div class="thread">
+
+    </div>
+
+
+    <nav class="side-bar">
+        <ul>
+
+            <li title="takes you to buy/sell page !"><a href="page3.html"><i class="fas fa-desktop"></i>HOME</a></li>
+            <li title="contact us"><a href="#h2"><i class="fas fa-phone"></i>CONTACT US</a></li>
+            <li title="become a member !"><a href="#h3"><i class="fas fa-info-circle"></i>LOG IN</a></li>
+ 
+
+
+        </ul>
+    </nav>
+
+    <div class="bar1"></div>
+
+    <div class="bar2"></div>
+
+    <div class="bar3"><a class="men" href="#" style="background-color: transparent;color: white; position: absolute;top:28%;left: 11px;text-decoration: transparent;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">WOMEN</a></div>
+
+    <div class="bar4"><a class="men" href="#" style="background-color: transparent;color: white; position: absolute;top:28%;left: 24px;text-decoration: transparent;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">MEN</a></div>
+
+    <div class="bar5"><a class="access" href="#" style="background-color: transparent;color: white; position: absolute;top:28%;left: 10px;text-decoration: transparent;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">ACCESSORIES</a></div>
+    
+    <div class="camera"><a href="#"><img src="https://th.bing.com/th/id/OIP.G-PuhhOy8wUOzTnRj50aWgD5Es?pid=ImgDet&rs=1" height="90%" width="100%" ></a></div>
+    
+    <div class="cameraapp"><a href="#"><img src="https://th.bing.com/th/id/OIP.ZD2FL5oQWWr0fxJajEq_JQHaGJ?w=256&h=212&c=7&r=0&o=5&dpr=1.25&pid=1.7" height="90%" width="100%"></a></div>
+
+    <div class="lady"><a href="#"><img src="https://th.bing.com/th/id/OIP.da0VLV1Jc7gU8t8-RDpxYAHaLJ?pid=ImgDet&rs=1" height="90%" width="100%"></a></div>
+
+
+   <div class="watch"><a href="#"><img src="https://www.smartwatchspex.com/wp-content/uploads/2017/12/huami-amazfit-2-stratos-rubber-vs-amazfit-pace-2s-leather.jpg" height="90%" width="100%" ></a></div>
+         
+<div class="image4"><a href="#"><img src="https://images5.alphacoders.com/378/378173.jpg" height="90%" width="100%"></a></div>
+
+<div class="image5"><a href="#"><img src="https://pfimage.tidebuy.net/PFImage/Product/2018/10/24/b78b1ce4-a40b-4bbc-be63-9a20119feb44.jpg" height="90%" width="100%"></div>
+
+<div class="image6"><a href="#"><img src="https://i.pinimg.com/736x/dd/0f/e8/dd0fe81377a52a1a3742b0fafbba99fc.jpg" height="90%" width="100%"></a></div>
+
+
+<div class="home"><a href="#"><img src="https://thumbs.dreamstime.com/b/mindset-single-word-written-vintage-letterpress-printing-blocks-rustic-wood-background-165386931.jpg" height="90%" width="100%"></div>
+
+<div class="home1"><a href="#"><img src="https://images6.alphacoders.com/462/462284.jpg" height="90%" width="100%"></div></a>
+
+<div class="jewellery"><a href="#"><img src="https://media.istockphoto.com/vectors/jewelry-vector-banner-word-with-line-icon-vector-background-vector-id955777260" height="90%" width="100%"></div></a>
+
+<div class="jewellery1"><a href="#"><img src="https://th.bing.com/th/id/OIP.zzSx8ecUvTNLFKzdT4CQ2QHaEH?pid=ImgDet&w=488&h=271&rs=1" height="90%" width="100%"></div></a>
+       
+
+
+
+
+
+<div class="makeup"><a href="#"><img src="data:image/jpeg;base64,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" height="90%" width="100%"></div>
+
+    <div class="makeup1"><a href="#"><img src="https://www.beingnaturalhuman.com/wp-content/uploads/2020/09/Makeup-Kit.jpg" height="90%" width="100%"></div></a>
+    
+    <div class="deo"><a href="#"><img src="https://yesofcorsa.com/wp-content/uploads/2018/11/Mens-Perfumes-Desktop-Wallpaper.jpg" height="90%" width="100%"></div></a>
+    
+    <div class="deo1"><a href="#"><img src="https://www.bing.com/images/blob?bcid=S5VUiscV1Z8DsvfhLlCHw5lr3ecy.....wo" height="90%" width="100%"></div></a>
+
+
+<div class="quote001" ><p style="font-size: 130%;color: honeydew;font-family: inherit;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "The only thing <i><b>worse</b></i>  than starting something and falling is not <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;starting something." </p></div>
+
+<div class="bar001" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;font-size: 130%;"><p style="position: absolute;top:-20% ;color: ivory;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; POPULAR PRODUCTS</p></div>
+
+<div class="bl1"><a href="#"><img src="https://th.bing.com/th/id/OIP.nmOFH8vQQISERK_BaWgnQAHaJV?pid=ImgDet&w=923&h=1164&rs=1" height="100%" width="100%"></a></div>
+
+<div class="q1"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp COOL SUNGLASSES </p></div>
+
+<div class="q2"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp  25% OFF </p></div>
+
+
+
+
+<div class="bl12"><a href="#"><img src="https://th.bing.com/th/id/R.9252f6d559a4b16dde39b740d8264cb7?rik=WQ9hDIB%2fjLbCRg&riu=http%3a%2f%2fdecorationchannel.com%2fwp-content%2fuploads%2f2017%2f02%2fmodern-table-lamps-for-home-improvement.jpg&ehk=tXgvmQHLFDyFNCFo2dj7NExk6naDbG4%2bNbTpObHHFeg%3d&risl=&pid=ImgRaw&r=0" height="100%" width="100%"></a></div>
+
+<div class="q12"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp;  MODERN LAMPS </p></div>
+
+<div class="q21"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp 10-15% OFF </p></div>
+
+<div class="bl123"><a href="#"><img src="https://th.bing.com/th/id/OIP.IJvkXMJkcpQHnW0mSIZ91gHaIa?pid=ImgDet&w=570&h=647&rs=1" height="100%" width="100%"></a></div>
+
+<div class="q123"><p>&nbsp &nbsp  &nbsp &nbsp &nbsp; &nbsp; &nbsp STYLISH MUGS </p></div>
+
+<div class="q213"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp 30-45% OFF</p></div>
+
+<div class="bl1234"><a href="#"><img src="https://www.chooseyourmobile.com/wp-content/uploads/2020/11/vivo-y51s-white.jpg" height="100%" width="100%"></a></div>
+
+<div class="q1234"><p>&nbsp &nbsp  &nbsp &nbsp &nbsp; &nbsp; &nbsp SMART PHONES </p></div>
+
+<div class="q2134"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp   &nbsp 10-25% OFF </p></div>
+
+
+<div class="bar002" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;font-size: 130%;"><p style="position: absolute;top:-20% ;color: ivory;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  RECYCLED PRODUCTS</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="a"><a href="#"><img src="https://www.quickanddirtytips.com/sites/default/files/images/4274/recyclemobilephones.jpg" height="100%" width="100%"></a></div>
+
+<div class="b"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp MOBILE PHONES </p></div>
+
+<div class="c"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp   25-50%  LESS PRICE </p></div>
+
+
+
+
+<div class="d"><a href="#"><img src="https://th.bing.com/th/id/OIP.AU1sRQQc0IpbiTLRtGGfugHaLH?pid=ImgDet&w=800&h=1200&rs=1" height="100%" width="100%"></a></div>
+
+<div class="e"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp WOMEN CLOTHES </p></div>
+
+<div class="f"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp  Rs. 300-3000 /- </p></div>
+
+<div class="g"><a href="#"><img src="https://i.pinimg.com/originals/80/c4/03/80c4039734e6030e31b03ba566c9bce7.jpg" height="100%" width="100%"></a></div>
+
+<div class="h"><p>&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp MEN CLOTHES </p></div>
+
+<div class="i"><p>&nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp  Rs. 500-4599 /- </p></div>
+
+
+<div class="j"><a style="text-decoration: transparent;"><span style='font-size:100px;color:goldenrod;font-style:normal;font-weight:bold;'>&#10782;</span></a></div>
+
+<div class="azx"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">&nbsp These products are recycled and made &nbsp;  &nbsp;  &nbsp;  &nbsp; new.They have been checked and  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  reviewed by the <i><b>experts</b></i> . Feel free to &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;buy them. Complete informaton &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  about the product will be provided to you. If any type of <i><b> inconvenience</b></i>  happens &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; we'll definitely solve it... :)<br><br><i><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;THANKYOU !</b></i></p> </div>
+
+
+<div class="rocket"><img src="https://th.bing.com/th/id/OIP.8NNGsCg-oox6lA1mj5_aUgAAAA?pid=ImgDet&w=301&h=300&rs=1" height="100%" width="100%"><p style="font-size: 60%;color: white;">WORLDWIDE &nbsp;DELIVERY</p></div>
+
+
+<div class="turn"><img src="https://cdn1.iconfinder.com/data/icons/shopping-part-1-1/33/free_delivery-512.png" height="100%" width="100%"><p style="font-size: 60%;color: white;">FREE <br> SHIPPING</p></div>
+
+
+
+
+
+<div class="aaaa"><img src="https://www.polymark.co.uk/images/content/icons/50_320x320.png?10:21:24&_e=.png" height="100%" width="100%"><p style="font-size: 60%;color: white;">24/7 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  SUPPORT</p></div>
+
+
+
+
+
+
+<a href="#"><div class="la"></div></a>
+
+<div class="aaaaaa"><a href="#" style="text-decoration: transparent;"><span style='font-size:300%;color:goldenrod;font-style:normal;font-weight:bold;'>&#8594;</span>
+</a></div>
+
+<div class="get">Get our latest and special sales here</div>
+
+</body>
+</html>
